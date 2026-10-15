@@ -1,0 +1,6 @@
+interface:
+  display_name: "学校超算 Agent"
+  short_description: "安全连接学校 Slurm 超算并管理科研作业"
+  default_prompt: "使用 $school-hpc-agent，先对 school-login 进行只读 SSH/Slurm 检查；任何提交或远程写入前必须征求我的明确同意。"
+policy:
+  allow_implicit_invocation: true

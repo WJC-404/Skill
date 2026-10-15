@@ -1,0 +1,4 @@
+interface:
+  display_name: "CQMU HPC"
+  short_description: "Use Chongqing Medical University HPC safely"
+  default_prompt: "Use $cqmu-hpc to help with a read-only CQMU HPC status check."
